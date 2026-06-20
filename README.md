@@ -20,7 +20,7 @@ I Was Given A Task To Launch And Configure An EC2 Instance On My AWS Account Her
 
 
 ####  Instance Confirmation Dashboard
-![Launch Confirmation](./LAUNCHCORFORMATION.jpeg)
+![Launch Confirmation](./LAUNCH%20CORFORMATION.jpeg)
 
 
 
