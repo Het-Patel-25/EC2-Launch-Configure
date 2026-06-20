@@ -14,11 +14,8 @@ I Was Given A Task To Launch And Configure An EC2 Instance On My AWS Account Her
   * **Storage Allocation:** Initialized a root Amazon Elastic Block Store (EBS) volume allocated at `8 GiB` utilizing General Purpose SSD volume structures.
   * **Access Token Generation:** Generated an asymmetric RSA credential security pair named `test-demo-key-pair.pem` and downloaded the private key component securely to the local workstation workspace.
 
-####  Launching the EC2 Instance
-![EC2 Launch Process](./EC2-LAUNCH.jpeg)
-
 ####  Instance Confirmation Dashboard
-![Launch Confirmation](./LAUNCH CORFORMATION.jpeg)
+![Launch Confirmation](./LAUNCHCORFORMATION.jpeg)
 
 
 ### Step 2: Local Environment Configuration & Key Access Restrictions
