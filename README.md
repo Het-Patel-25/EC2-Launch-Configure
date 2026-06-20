@@ -14,8 +14,18 @@ I Was Given A Task To Launch And Configure An EC2 Instance On My AWS Account Her
   * **Storage Allocation:** Initialized a root Amazon Elastic Block Store (EBS) volume allocated at `8 GiB` utilizing General Purpose SSD volume structures.
   * **Access Token Generation:** Generated an asymmetric RSA credential security pair named `test-demo-key-pair.pem` and downloaded the private key component securely to the local workstation workspace.
 
+
+
+
+
+
 ####  Instance Confirmation Dashboard
 ![Launch Confirmation](./LAUNCHCORFORMATION.jpeg)
+
+
+
+
+
 
 
 ### Step 2: Local Environment Configuration & Key Access Restrictions
@@ -25,8 +35,18 @@ I Was Given A Task To Launch And Configure An EC2 Instance On My AWS Account Her
      cd ~/Downloads
      ```
 
+
+
+
+     
+
 #  Local Key Permissions & Initial SSH Connection
 ![Initial Connection Setup](./EC2-Configuration.jpeg)
+
+
+
+
+
 
 
    2. Overrode broad operating system default folder permissions to satisfy strict SSH validation parameters. Public and system broadcast read privileges were stripped from the file using the POSIX command utility:
@@ -34,6 +54,9 @@ I Was Given A Task To Launch And Configure An EC2 Instance On My AWS Account Her
      chmod 400 test-demo-key-pair.pem
      ```
      *Note: This security modification mitigates explicit error blocks where an exposed private key token is rejected by remote server nodes for being too vulnerable.*
+
+
+      
 
 ### Step 3: Establishing Remote Cloud Connections
 * **Action:** Initialized an encrypted cryptographic tunnel connection directly into the remote AWS hypervisor framework.
@@ -49,6 +72,10 @@ I Was Given A Task To Launch And Configure An EC2 Instance On My AWS Account Her
 
 #### System Package Diagnostics
 ![Package Management Settings](./config-2.jpeg)
+
+
+
+
 
 #### Final Server Infrastructure Setup
 ![Server Environment Bootstrap](./Config-3.jpeg)
